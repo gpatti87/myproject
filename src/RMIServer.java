@@ -13,7 +13,7 @@ public class RMIServer extends UnicastRemoteObject implements RMIServices {
 
     protected RMIServer() throws RemoteException {
         //bisogna mettere la porta assegnata dal prof
-        // super(1100);
+        super(1104);
     }
 
     public void OtherStuff(){

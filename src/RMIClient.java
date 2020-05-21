@@ -15,7 +15,7 @@ public class RMIClient {
         try {
             RMIServices server = (RMIServices) Naming.lookup("rmi://" + address + "/" + rmi_name);
 
-            System.out.println("L'ora attuale è: ");
+            System.out.println("L'ora attuale e': ");
             System.out.println(server.getDate());
 
             System.out.println("Converted to up: " + server.toUP("ciao!!"));
